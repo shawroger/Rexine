@@ -1,6 +1,27 @@
 <html>
-	<head></head>
+	<head>
+		<script type="text/javascript" src="./bundle.js">
+		</script>
+	</head>
 	<body></body>
-	<script type="text/javascript" src="./bundle.js">
+	
+	<script type="text/javascript">
+		var App = new app();
+		App.when('u',function(a,b){
+			console.log(a.value)
+		});
+		App.when('s',function(a,b){
+			console.log(233)
+		});
+		App.when('c',function(a,b){
+			console.log(3454)
+		});
+
+		App.at(0,function(a,b){
+			document.title = a.value;
+		});
+
+		App.listen();
+
 	</script>
 </html>
