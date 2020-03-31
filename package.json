@@ -1,0 +1,27 @@
+{
+  "name": "rexine",
+  "version": "2.3.0",
+  "description": "a light javascript tool to encrypt the data",
+  "main": "lib/index.js",
+  "types": "types/index.d.ts",
+  "unpkg": "dist/bundle.js",
+  "homepage": "https://github.com/shawroger/Rexine",
+  "keywords": [
+    "rexine"
+  ],
+  "author": "shawroger",
+  "license": "ISC",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "rollup": "^1.23.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "rollup-watch": "^4.3.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"allowUnreachableCode": true,
+		"strict": true,
+		"noImplicitAny": false,
+		"esModuleInterop": true,
+		"target": "es3",
+		"module": "es6",
+		"removeComments": true,
+		"preserveConstEnums": false,
+		"sourceMap": true,
+		"outDir": "./lib",
+		"lib": ["dom", "es7"],
+		"downlevelIteration": true,
+		"declaration": true,
+		"declarationDir": "./types",
+		"moduleResolution": "node"
+	},
+	"include": ["src", "src/index.ts"]
+}
